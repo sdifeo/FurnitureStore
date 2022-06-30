@@ -1,0 +1,80 @@
+.header-content {
+    background-color: #4F5D75;
+    color: white;
+    height: 162px;
+    font-weight: bold;
+
+    &__company-information {
+        width: 60%;
+        margin: auto;
+    }
+
+    &__company-information__company-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+#sep {
+    background-color: rgb(250, 235, 215, 0.5);
+    height: 1px;
+}
+
+.header-content-link__contents-links {
+    list-style: none;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-left: 0px;
+
+    li {
+        margin: 0 40px 0 0;
+        padding: 5px 0 15px 0;
+        font-size: 17px;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        ol {
+            display: none;
+        }
+
+        &:hover ol {
+            display: block;
+
+        }
+    }
+}
+
+.products_dropdownMenu {
+    position: absolute;
+    width: max-content;
+    background-color: #C4E0F9;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding-left: 0;
+    color: black;
+
+    #title{
+        padding-left: 15px;
+        font-weight: bolder;
+    }
+
+    li {
+        padding: 15px;
+        list-style-type: none;
+        text-align: left;
+        font-size: 12px;
+
+        &:hover{
+            color: #67AAF9;
+        }
+    }
+
+    &__contents{
+        display: flex;
+    }
+
+    &__furniture_types{
+        border-left: 1px solid black;
+    }
+}

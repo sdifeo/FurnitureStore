@@ -1,0 +1,47 @@
+.about-us{
+    padding: 50px 0 50px 0;
+    background-color: #f1f3f5;
+}
+
+.about-us-content__container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-us-content__description{
+    margin-right: 75px;
+    color: black;
+    
+}
+
+.about-us-content__information{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.information__panel{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    
+}
+
+.information__panel-image-container{
+    margin-right: 15px;
+    margin-top: 8px;
+    height: 50px;
+}
+
+.information__panel svg{
+    width: 25px;
+    height: 100%;
+}
+
+.information__panel-description{
+    display: flex;
+    flex-direction: column;
+}

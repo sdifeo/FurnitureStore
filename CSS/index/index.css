@@ -1,0 +1,203 @@
+.header-content {
+  background-color: #4F5D75;
+  color: white;
+  height: 162px;
+  font-weight: bold;
+}
+.header-content__company-information {
+  width: 60%;
+  margin: auto;
+}
+.header-content__company-information__company-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+#sep {
+  background-color: rgba(250, 235, 215, 0.5);
+  height: 1px;
+}
+
+.header-content-link__contents-links {
+  list-style: none;
+  display: inline-flex;
+  padding-top: 10px;
+  padding-left: 0px;
+}
+.header-content-link__contents-links li {
+  margin: 0 40px 0 0;
+  padding: 5px 0 15px 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-content-link__contents-links li ol {
+  display: none;
+}
+.header-content-link__contents-links li:hover ol {
+  display: block;
+}
+
+.products_dropdownMenu {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #C4E0F9;
+  border: 1px solid black;
+  margin-top: 15px;
+  padding-left: 0;
+  color: black;
+}
+.products_dropdownMenu #title {
+  padding-left: 15px;
+  font-weight: bolder;
+}
+.products_dropdownMenu li {
+  padding: 15px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 12px;
+}
+.products_dropdownMenu li:hover {
+  color: #67AAF9;
+}
+.products_dropdownMenu__contents {
+  display: flex;
+}
+.products_dropdownMenu__furniture_types {
+  border-left: 1px solid black;
+}
+
+.header-image-container__contents {
+  margin: auto;
+  text-align: center;
+}
+
+.header-image-container {
+  background-color: #d7d3c8;
+}
+
+.header-image-container img {
+  width: 100%;
+  height: 775px;
+}
+
+.about-us {
+  padding: 50px 0 50px 0;
+  background-color: #f1f3f5;
+}
+
+.about-us-content__container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-us-content__description {
+  margin-right: 75px;
+  color: black;
+}
+
+.about-us-content__information {
+  display: flex;
+  flex-direction: column;
+}
+
+.information__panel {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.information__panel-image-container {
+  margin-right: 15px;
+  margin-top: 8px;
+  height: 50px;
+}
+
+.information__panel svg {
+  width: 25px;
+  height: 100%;
+}
+
+.information__panel-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.offers {
+  width: 100%;
+  background-color: #D7D9D7;
+}
+.offers__container {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.offers__title {
+  padding: 75px 0 10px 0;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.cards_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 15px 0 15px 0;
+  width: 370px;
+  height: 370px;
+}
+.card__contents {
+  width: 60%;
+}
+.card__title {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.card__price {
+  margin-top: 10px;
+}
+.card__chair-image img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 50;
+  left: 50;
+}
+.card__couch-image {
+  overflow: auto;
+  top: 100;
+  left: 10px;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-image: url("../../Media/offers/couch.png");
+  background-repeat: no-repeat;
+  background-size: 350px 200px;
+}
+
+#price_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.first {
+  background-color: #BAACBD;
+}
+
+.second {
+  background-color: #A0A6A0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=index.css.map */
